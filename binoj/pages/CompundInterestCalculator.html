@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<TITLE>COMPOUND INTEREST CALCULATOR</TITLE>
+</HEAD>
+<BODY>
+<label>Amount:</label>
+<input id="amount" value ="1000" type="number"><br>
+<label>Years:</label>
+<input id="years" value="2" type="number"><br>
+<label>Number of times:</label>
+<input id="times" value="1" type="number"><br>
+<label>Rate:</label>
+<input id="rate" value="6.8" type="number"><br>
+<button onclick="calculate()" >Calculate</button><br>
+<Script>
+function calculate(){
+var amount = document.getElementById("amount").value
+var years = document.getElementById("years").value
+var rate = document.getElementById("rate").value
+var times = document.getElementById("times").value
+var pt1 = 1+((rate/100)/times);
+var pt2 = (years*times);
+var pt3 = Math.pow(pt1,pt2);
+var interest = pt3*amount;
+document.getElementById("final").value = interest
+document.getElementById("interestAmt").value = interest-amount;
+}
+
+</Script>
+<label>Final Amount:</label>
+<input id="final" type="number"><br>
+<label>Interest Amount:</label>
+<input id="interestAmt" type="number"><br>
+</BODY>
+</HTML>
