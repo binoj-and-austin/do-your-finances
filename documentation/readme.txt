@@ -1,1 +1,1 @@
-Hi, I'm binoj.
+The vision is to create a web application which provides us the ability to personal finances on multiple sorts. We would like to include Expense Calculator, Simple and Compound interest calculator and other calculation required to manage and maintain personal finances.
