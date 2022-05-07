@@ -1,5 +1,5 @@
 h1{
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
 }
 
@@ -12,7 +12,7 @@ h1{
 #options img, #result img{
     width: 150px;
     height: 150px;
-    margin: 0 40px;
+    margin: 0 45px;
 }
 
 #options img:hover{
@@ -21,7 +21,7 @@ h1{
 
 #result h2{
     font-size:2rem;
-    margin: 0 40px;
+    margin: 0 45px;
     align-self: center;
 }
 
