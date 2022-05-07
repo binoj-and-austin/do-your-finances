@@ -3,7 +3,7 @@
 <HEAD>
 <TITLE>COMPOUND INTEREST CALCULATOR</TITLE>
 </HEAD>
-<BODY>
+<BODY style = "text-align : center">
 <label>Amount:</label>
 <input id="amount" value ="1000" type="number"><br>
 <label>Years:</label>
@@ -19,8 +19,8 @@ var rate = document.getElementById("rate").value
 var pt1 = amount*years*rate;
 var pt2 = pt1/100;
 var interest = pt2;
-document.getElementById("final").value = interest
-document.getElementById("interestAmt").value = interest-amount;
+document.getElementById("final").value = interest+amount
+document.getElementById("interestAmt").value = interest;
 }
 
 </Script>
