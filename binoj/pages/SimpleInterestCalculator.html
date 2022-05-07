@@ -2,6 +2,22 @@
 <HTML>
 <HEAD>
 <TITLE>COMPOUND INTEREST CALCULATOR</TITLE>
+ <style>
+  div {
+    height: 200px;
+    width: 400px;
+    background: black;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+   * {
+        background-color: sandybrown;
+      }
+  </style>
 </HEAD>
 <BODY style = "text-align : center">
 <label>Amount:</label>
@@ -19,7 +35,7 @@ var rate = document.getElementById("rate").value
 var pt1 = amount*years*rate;
 var pt2 = pt1/100;
 var interest = pt2;
-document.getElementById("final").value = interest+amount
+document.getElementById("final").value = interest+amount;
 document.getElementById("interestAmt").value = interest;
 }
 
