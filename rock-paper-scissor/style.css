@@ -72,13 +72,13 @@ button{
     #options img, #result img{
         width: 25vw;
         height: 25vw;
-        margin: 0 20px;
+        margin: 0 10px;
         margin-bottom:50px;
     }
 
     #result h2{
         font-size:1.5rem;
-        margin: 0 20px;
+        margin: 0 10px;
         align-self: center;
     }
 
