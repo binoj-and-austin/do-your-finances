@@ -1,25 +1,19 @@
 <!DOCTYPE html>
-<HTML>
-<HEAD>
-<TITLE>COMPOUND INTEREST CALCULATOR</TITLE>
+<html>
+<head>
+<title>Simple INTEREST CALCULATOR</title>
  <style>
   div {
     height: 200px;
     width: 400px;
     background: black;
-
-    position: fixed;
-    top: 150%;
-    left: 50%;
-    margin-top: 100px;
-    margin-left: -200px;
 }
    * {
         background-color: sandybrown;
       }
   </style>
-</HEAD>
-<BODY style = "text-align : center">
+</head>
+<body style = "text-align : center">
   <div>
 <label>Amount:</label>
 <input id="amount" value ="1000" type="number"><br>
@@ -28,7 +22,7 @@
 <label>Rate:</label>
 <input id="rate" value="6.8" type="number"><br>
 <button onclick="calculate()" >Calculate</button><br>
-<Script>
+<script>
 function calculate(){
 var amount = document.getElementById("amount").value
 var years = document.getElementById("years").value
@@ -40,11 +34,11 @@ document.getElementById("final").value = interest+amount;
 document.getElementById("interestAmt").value = interest;
 }
 
-</Script>
+</script>
 <label>Final Amount:</label>
 <input id="final" type="number"><br>
 <label>Interest Amount:</label>
 <input id="interestAmt" type="number"><br>
 </div>
-</BODY>
-</HTML>
+</body>
+</html>
