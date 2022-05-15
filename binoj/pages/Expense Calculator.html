@@ -3,8 +3,31 @@
 <head>
 <title>Expense Calculator
 </title>
+<style>
+    div {
+      margin-top: 100px;
+    }
+    * {
+      background-color: sandybrown;
+    }
+    a:link,
+    a:visited {
+      border: 2px solid green;
+      color: black;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    a:hover,
+    a:active {
+      background-color: green;
+    }
+  </style>
 </head>
 <body>
+<div style="text-align: center">
 <label>Expense Name:</label>
 <select id="expName" name="expName">
 <option value="Food">Food</option>
@@ -84,6 +107,6 @@ tbl.rows[rcount-1].cells[1].innerHTML = 0;
 
 <button onclick="window.print()">Print</button>
 <button onclick="clearTable();">Reset Table</button>
-
+</div>
 </body>
 </html>
